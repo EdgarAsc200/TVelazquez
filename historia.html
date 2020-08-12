@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jquery.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+
+    <title>
+        Transportes Velaquez</title>
+</head>
+
+<body>
+    <!-- navegacion-->
+    <header class="header-site  ">
+        <div class="container content-header">
+            <div class="nav-bar">
+                <img src="img/logo.png" alt="Logo">
+                <button id="btn-responsive" class=" btn-reponsive fa fa-bars"></button>
+                <nav id="menu">
+                    <a  href="/">Inicio</a>
+                    <a href="historia.html">Sobre Nosotros</a>
+                    <div class="drowp">
+                        <a class="" href="#">Servicios </a>
+                        <div class="slide">
+                            <a href="carretera.html">carretera</a>
+                        </div>
+                    </div>
+                    <div class="drowp">
+                        <a class="" href="#">Terminales </a>
+                        <div class="slide">
+                            <a href="arandas.html">Arandas</a>
+                        </div>
+                    </div>
+                    <a href="arandas.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <div class="titulo section">
+        <h1 class="container">Sobre Nosotros</h1>
+    </div>
+    <!-- historia-->
+    <section class=" historia  section container">
+
+        <div class="contentHis">
+            <div class="his-imagen his-content">
+                <img src="img/logo.jpeg" alt="">
+            </div>
+            <div class="texto-his history his-content">
+                <h2 class="textCenter section">Transportes Velaquez S.A. de C.V.</h2>
+                <p class="section">Transportes Velázquez es una empresa dedicada al traslado de mercancía en equipo de
+                    trasporte pesado, especializado en caja seca. <br>
+                    Se ubica en Arandas Jalisco ofreciendo su servicio de transporte desde hace 18 años, contando con
+                    sus
+                    rutas a toda la República mexicana. </p>
+                <p class="section"> Lo cual lo hace uno de las transportistas más destacadas en la Región ya que, más
+                    que
+                    ofrecer una amplia gama de rutas, ofrece un excelente servicio de calidad, tiempo y forma</p>
+            </div>
+        </div>
+    </section>
+    <!-- Pilares-->
+    <section class=" pilares container section">
+        <h2 class="textCenter section">Nuestros Pilares</h2>
+        <p class="textCenter section">Que avalan nuetra trayectoria</p>
+        <div class="content-pilares">
+            <div class="pilar">
+                <img src="img/3.jpeg" alt="">
+                <div class="pilar-texto">
+                    <h4>Compromiso </h4>
+                </div>
+            </div>
+            <div class="pilar">
+                <img src="img/1.jpeg" alt="">
+                <div class="pilar-texto">
+                    <h4>Seguridad </h4>
+                </div>
+            </div>
+            <div class="pilar">
+                <img src="img/2.jpeg" alt="">
+                <div class="pilar-texto">
+                    <h4>Patio Seguro</h4>
+                </div>
+            </div>
+            <div class="pilar">
+                <img src="img/4.jpeg" alt="">
+                <div class="pilar-texto">
+                    <h4>Puntualidad</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="content-mvv container">
+            <div class="col textCenter">
+                <h3>Mision</h3>
+                <p>Proporcionar un servicio de transporte de carga altamente
+                    competitivo, con calidad y oportunidad, basada en la satisfacción
+                    de las exigencias de nuestros clientes. Brindando atención
+                    personalizada, atendiendo sus necesidades, y dando solución a lo
+                    que se pueda presentar durante la entrega de mercancía. Así
+                    como garantizar la entrega del producto con una excelente
+                    calidad, en tiempo y forma. Operando de una forma segura y
+                    responsable.</p>
+            </div>
+            <div class="col textCenter">
+                <h3>Vision</h3>
+                <p>Ser reconocidos por nuestros valores, nuestro personal y nuestro
+                    servicio; convirtiéndonos en la compañía de transporte más
+                    competitiva de nuestra región, cuya capacidad, gestión y
+                    liderazgo, nos permita crecer cada vez más en nuestro rango
+                    ofreciendo un servicio de excelente calidad. Así como ofrecer una
+                    mejora continua de nuestro servicio.</p>
+            </div>
+            <div class="col textCenter">
+                <h3>Valores</h3>
+                <ul>
+                    <li>Compromiso</li>
+                    <li>Trabajo en Equipo</li>
+                    <li>Lealtad</li>
+                    <li>Honestidad</li>
+                    <li>Seguridad</li>
+                    <li>Liderazgo</li>
+                    <li>Integridad</li>
+                    <li>Puntualidad</li>
+                    <li>Responsabilidad</li>
+                </ul>
+
+            </div>
+            <div class="col textCenter">
+                <h3>Objetivos</h3>
+                <p>Prestar excelentes servicios de transporte competitivo, de calidad
+                    y atención que satisfacen plenamente las necesidades de nuestros
+                    clientes, generando confianza y garantizando la seguridad, rapidez
+                    y cobertura a nivel nacional, que permitan mantener satisfechos a
+                    los mismos.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Galeria-->
+    <section class="galery section">
+        <h2 class="textCenter section">GALERIA</h2>
+        <div class=" container content-galery">
+            <div class="picture"><img class="img" src="img/1.jpeg" alt="">
+            </div>
+            <div class="picture"><img class="img" src="img/2.jpeg" alt="">
+            </div>
+            <div class="picture"><img class="img" src="img/3.jpeg" alt="">
+            </div>
+            <div class="picture"><img class="img" src="img/4.jpeg" alt="">
+            </div>
+            <div class="picture"><img class="img" src="img/5.jpeg" alt="">
+            </div>
+            <div class="picture"><img class="img" src="img/6.jpeg" alt="">
+            </div>
+            <div class="picture"><img class="img" src="img/7.jpeg" alt="">
+            </div>
+            <div class="picture"><img class="img" src="img/8.jpeg" alt="">
+            </div>
+            <div class="picture"><img class="img" src="img/9.jpeg" alt="">
+            </div>
+
+
+        </div>
+        <div class="ligthbox">
+            <img class="img-show" src="" alt="">
+            <button class="btn-close">X</button>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class=" contenfootert container">
+            <div class="colum nav-footer">
+                <nav>
+                    <img class="footer-brand" src="img/logo.png" alt="">
+                    <a href="/">Inicio</a>
+                    <a href="historia.html">Sobre Nosotros</a>
+                    <a href="carretera.html">Servicios </a>
+
+                    <a href="arandas.html">Contacto</a>
+                </nav>
+            </div>
+            <div class="colum">
+                <h2 class="textCenter">Facebook</h2>
+                <div class="facebook">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTransportes-Vel%25C3%25A1zquez-102405338199224&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                     width="340" height="500" 
+                     style="border:none;overflow:hidden"
+                      scrolling="no" frameborder="0"
+                       allowTransparency="true" 
+                       allow="encrypted-media"></iframe>
+                </div>
+            </div>
+            <div class="colum ">
+                <h2 class="textCenter">Terminales</h2>
+                <div class="nav-footer">
+                    <nav>
+                        <a href="">Arandas</a>
+
+                    </nav>
+                </div>
+
+            </div>
+            <div class="colum ">
+                <h1 class="lema">NO ES LA VELOCIDAD SINO LA CONSTANCIA Y LA DEDICACIÓN <br>EN NUESTRAS ENTREGAS A
+                    TIEMPO” </h1>
+
+            </div>
+
+        </div>
+        </div>
+        <div class=" footer-final">
+            <div class=" content-final container">
+                <p>&copy; Copyrigth- Trasportes de carga Velazquez SA de CV</p>
+                <div class="icons"><a class="icon fa fa-facebook" href=""></a>
+                    <a class="icon fa fa-twitter" href=""></a>
+                    <a class="icon fa fa-youtube" href=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        const btn = document.querySelector('.btn-close');
+        btn.addEventListener('click', () => {
+    ligthbox.classList.remove('move');
+
+})
+    </script>
+
+</body>
+
+</html>
